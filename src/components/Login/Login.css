@@ -1,0 +1,33 @@
+.login-page {
+    height: 100vh;
+    background-image: url('../../assets/loginBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-google-btn {
+    width: 200px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.login-with-email {
+    text-align: center;
+}
